@@ -1,0 +1,1 @@
+package Collection;import java.util.Stack;public class StackDemo {    public static void main(String[] args) {        Stack s = new Stack();        s.add("A");        s.add("B");        s.add("C");        System.out.println(s);        System.out.println(s.search("A"));        System.out.println(s.search("Z"));    }}
